@@ -3,6 +3,7 @@
 [Open WebUI On Huggingface](https://xzygreen1-fkhdgduthserykgysssbhjvxg.hf.space)  这是一个范例，不要Duplicate this Space
 
 ```
+environment variable：
 G_NAME	xxx/openwebui	您的 GitHub 仓库名称，可选
 G_TOKEN	*************	您的 GitHub 访问令牌，可选
 WEBDAV_URL	https://alist.com/dav	WebDAV 的地址
