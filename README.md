@@ -15,32 +15,6 @@ WEBDAV_PASSWORD	webdav密码	WebDAV 的密码
 官方文档: [Open WebUI Documentation](https://docs.openwebui.com/).  
 官方更新日志: [CHANGELOG.md](./CHANGELOG.md)
 
-
-
-## 拓展特性
-
-完整特性请看更新日志 [CHANGELOG_EXTRA.md](./CHANGELOG_EXTRA.md)
-
-### 积分报表
-
-![usage panel](./docs/usage_panel.png)
-
-### 全局积分设置
-
-![credit config](./docs/credit_config.png)
-
-### 用户积分管理与充值
-
-![user credit](./docs/user_credit.png)
-
-### 按照 Token 或请求次数计费，并在对话 Usage 中显示扣费详情
-
-![usage](./docs/usage.png)
-
-### 支持注册邮箱验证
-
-![email](./docs/sign_verify_user.png)
-
 ## 拓展配置
 
 ### HTTP Client Read Buffer Size
@@ -54,7 +28,6 @@ AIOHTTP_CLIENT_READ_BUFFER_SIZE=65536
 
 ### 注册邮箱验证
 
-![verify email](./docs/signup_verify.png)
 
 请在管理端打开注册邮箱验证，配置 WebUI URL，同时配置如下环境变量
 
