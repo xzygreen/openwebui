@@ -1,12 +1,14 @@
 # Open-WebUI
 仅支持huggingface部署
-🤗Space Open WebUI automatic update template
-# Environment variable
+[Open WebUI On Huggingface](https://xzygreen1-fkhdgduthserykgysssbhjvxg.hf.space)  这是一个范例，不要Duplicate this Space
+
+```
 G_NAME	xxx/openwebui	您的 GitHub 仓库名称，可选
 G_TOKEN	*************	您的 GitHub 访问令牌，可选
 WEBDAV_URL	https://alist.com/dav	WebDAV 的地址
 WEBDAV_USERNAME	webdav用户名	WebDAV 的用户名
 WEBDAV_PASSWORD	webdav密码	WebDAV 的密码
+```
 
 > 该项目是社区驱动的开源 AI 平台 [Open WebUI](https://github.com/open-webui/open-webui) 的定制分支。此版本与 Open WebUI 官方团队没有任何关联，亦非由其维护。
 
