@@ -1,6 +1,7 @@
 # Open-WebUI
 仅支持huggingface部署
-[Open WebUI On Huggingface]([https://xzygreen1-fkhdgduthserykgysssbhjvxg.hf.space](https://huggingface.co/spaces/xzygreen1/fkhdgduthserykgysssbhjvxg))  这是一个范例，不要Duplicate this Space
+
+[Open WebUI On Huggingface](https://huggingface.co/spaces/xzygreen1/fkhdgduthserykgysssbhjvxg) 这是一个范例，不要Duplicate this Space
 
 ```
 environment variable：
