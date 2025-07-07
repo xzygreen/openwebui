@@ -10,11 +10,6 @@ WEBDAV_PASSWORD	webdav密码	WebDAV 的密码
 
 > 该项目是社区驱动的开源 AI 平台 [Open WebUI](https://github.com/open-webui/open-webui) 的定制分支。此版本与 Open WebUI 官方团队没有任何关联，亦非由其维护。
 
-# Open WebUI 👋
-
-官方文档: [Open WebUI Documentation](https://docs.openwebui.com/).  
-官方更新日志: [CHANGELOG.md](./CHANGELOG.md)
-
 ## 拓展配置
 
 ### HTTP Client Read Buffer Size
