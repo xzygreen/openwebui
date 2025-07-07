@@ -36,13 +36,3 @@ SMTP_PORT=465
 SMTP_USERNAME=example@qq.com
 SMTP_PASSWORD=password
 ```
-
-### 品牌/LOGO定制能力说明
-
-本项目尊重并遵守 [Open WebUI License](https://docs.openwebui.com/license) 的品牌保护条款；我们鼓励社区用户尽量保留原有 Open WebUI 品牌，支持开源生态！
-
-如需自定义品牌标识（如 LOGO、名称等）：
-
-- 请务必确保您的实际部署满足 License 所要求的用户规模、授权条件等（详见 [官方说明#9](https://docs.openwebui.com/license#9-what-about-forks-can-i-start-one-and-remove-all-open-webui-mentions)）。
-- 未经授权的商用或大规模去除品牌属于违规，由使用者自行承担法律风险。
-- 具体自定义方法见 [docs/BRANDING.md](./docs/BRANDING.md)。
