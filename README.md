@@ -5,8 +5,6 @@ Only supports Huggingface deployment
 
 ```
 Environment variables:
-G_NAME xxx/openwebui Your GitHub repository name (optional)
-G_TOKEN ************* Your GitHub access token (optional)
 WEBDAV_URL https://alist.com/dav WebDAV address
 WEBDAV_USERNAME WebDAV username
 WEBDAV_PASSWORD WebDAV password
