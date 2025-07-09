@@ -1,40 +1,33 @@
+
 # Open-WebUI
-仅支持huggingface部署
-
-[Open WebUI On Huggingface](https://huggingface.co/spaces/xzygreen1/fkhdgduthserykgysssbhjvxg) 这是一个范例，不要Duplicate this Space
-
-```
-environment variable：
-G_NAME	xxx/openwebui	您的 GitHub 仓库名称，可选
-G_TOKEN	*************	您的 GitHub 访问令牌，可选
-WEBDAV_URL	https://alist.com/dav	WebDAV 的地址
-WEBDAV_USERNAME	webdav用户名	WebDAV 的用户名
-WEBDAV_PASSWORD	webdav密码	WebDAV 的密码
-```
-
-> 该项目是社区驱动的开源 AI 平台 [Open WebUI](https://github.com/open-webui/open-webui) 的定制分支。此版本与 Open WebUI 官方团队没有任何关联，亦非由其维护。
-
-## 拓展配置
-
-### HTTP Client Read Buffer Size
-
-当有遇到 `Chunk too big` 报错时，可以适当调节这里的大小
+Only supports Huggingface deployment  
+[Open WebUI On Huggingface](https://huggingface.co/spaces/xzygreen1/fkhdgduthserykgysssbhjvxg) This is an example – do not duplicate this Space.  
 
 ```
-# 默认是 64KB
+Environment variables:
+G_NAME xxx/openwebui Your GitHub repository name (optional)
+G_TOKEN ************* Your GitHub access token (optional)
+WEBDAV_URL https://alist.com/dav WebDAV address
+WEBDAV_USERNAME WebDAV username
+WEBDAV_PASSWORD WebDAV password
+```
+
+> This project is a community-driven fork of the open-source AI platform [Open WebUI](https://github.com/open-webui/open-webui). This version is not associated with or maintained by the official Open WebUI team.  
+
+## Extended Configurations  
+### HTTP Client Read Buffer Size  
+Adjust this value when encountering `Chunk too big` errors:  
+```
+# Default is 64KB
 AIOHTTP_CLIENT_READ_BUFFER_SIZE=65536
 ```
 
-### 注册邮箱验证
-
-
-请在管理端打开注册邮箱验证，配置 WebUI URL，同时配置如下环境变量
-
+### Registration Email Verification  
+Enable email verification in the admin panel, configure the WebUI URL, and set these environment variables:  
 ```
-# 缓存
+# Cache
 REDIS_URL=redis://:<password>@<host>:6379/0
-
-# 邮件相关
+# Email settings
 SMTP_HOST=smtp.email.qq.com
 SMTP_PORT=465
 SMTP_USERNAME=example@qq.com
