@@ -1,5 +1,7 @@
-<img width="1068" height="292" alt="image" src="https://github.com/user-attachments/assets/a261d0b3-b4c9-4e61-9e7d-3e29f1a195d1" />
-by DartNode
+###  鸣谢
+### VTEXS
+
+[VTEXS](https://vtexs.com/) is a provider of high-performance cloud infrastructure and VPS hosting services, emphasizing guaranteed resources, 24/7 expert support, and a 99.99% uptime SLA. They support open-source projects by offering hosting resources,  to approved contributors.
 
 # Open-WebUI
 Only supports Huggingface deployment  
