@@ -1,3 +1,5 @@
+<img width="1068" height="292" alt="image" src="https://github.com/user-attachments/assets/a261d0b3-b4c9-4e61-9e7d-3e29f1a195d1" />
+by DartNode
 
 # Open-WebUI
 Only supports Huggingface deployment  
